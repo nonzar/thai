@@ -1,0 +1,151 @@
+﻿.g_navigation{
+    background-color: rgba(62,8,92,0.8);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#CC3E085C,endColorstr=#CC3E085C);
+    width: 100%;
+    z-index: 99;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.wrap{
+    background-color: #fff;
+    padding-bottom: 24px;
+}
+
+/* 出发地 */
+.wb_setOut {
+    background-color: #3E085C;
+    color: #fff;
+    height: 100px;
+    margin-left: -600px;
+    z-index: 98;
+    position: absolute;
+    left: 50%;
+    top: 55px;
+}
+.wb_setOut .w_tag{
+    font-size: 18px;
+    padding: 0 31px 0 44px;
+    margin: 29px 0 0 0;
+    border-right: solid #fff 1px;
+}
+.wb_setOut dl {
+    padding-top: 34px;
+    padding-left: 28px;
+}
+.wb_setOut dt{
+    font-size: 16px;
+    padding-right: 22px;
+}
+.wb_setOut dt,
+.wb_setOut dd{
+    float: left;
+    position: relative;
+}
+.wb_setOut dt{
+    line-height: 37px;
+}
+.wb_setOut .w_btnOrder{
+    border: none;
+    background: none;
+    background-color:#FDD000;
+    font-size: 14px;
+    line-height: 37px;
+    color: #3e085c;
+    width: 106px;
+    height: 37px;
+    position: relative;
+    top: 34px;
+    left: 32px;
+}
+.wb_setOut .w_btnOrder:hover {
+    color: #fbd733;
+}
+.wb_setOut .ui_dropList{
+    position: absolute;
+    left: 0;
+    top: 36px;
+}
+
+/* 目的地 */
+.wb_destination{
+    background: url("../images/bg_index.png") repeat 0 0;
+    padding-top: 26px;
+    border-bottom: solid #FDD000 1px;
+}
+.wb_destination .ui_title1 h3{
+    background: url("../images/bg_index.png") repeat 0 0;
+}
+.wb_destination .w_list {
+    width: 1200px;
+    padding-top: 18px;
+    padding-bottom: 15px;
+}
+.wb_destination .w_list ul{
+    width: 1300px;
+    /*overflow: hidden;*/
+}
+.wb_destination .w_list li{
+    padding-right: 27px;
+    padding-bottom: 25px;
+    float: left;
+}
+.wb_destination .w_list .item2{
+    width: 789px;
+}
+.wb_destination .w_list .item{
+    width: 380px;
+}
+.wb_destination .btnReadMove{
+    background-color: #FDD000;
+    line-height: 35px;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    width: 125px;
+    height: 35px;
+    display: block;
+}
+
+/* friend */
+.wb_friend{
+    padding-top: 58px;
+    position: relative;
+}
+.wb_friend .g_carousel{
+    height: 90px;
+    margin-top: 19px;
+}
+
+.wb_friend .g_carousel{
+    width: 1100px;
+}
+.wb_friend .prev,
+.wb_friend .next{
+    background-color: #D7D7D7;
+}
+.wb_friend .prev,
+.wb_friend .next {
+    background-image: url("../images/g_slider_arrow.png");
+    background-repeat: no-repeat;
+    cursor: pointer;
+    width: 48px;
+    height: 48px;
+    margin-top: 24px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+}
+
+.wb_friend .prev,
+.wb_friend .prev {
+    background-position: 0 0;
+    left: 0;
+}
+
+.wb_friend .next,
+.wb_friend .next {
+    background-position: 100% 0;
+    right: 0;
+}

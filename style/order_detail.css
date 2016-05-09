@@ -1,0 +1,279 @@
+﻿.wrap {
+    background-color: #fff;
+}
+/* wb_win */
+.wb_win_hd {
+    line-height: 34px;
+    text-indent: 10px;
+    overflow: hidden;
+    border-style: solid;
+    border-width: 1px 1px 0 3px;
+    border-color: #3E085D;
+}
+
+.wb_win_bd {
+    overflow: hidden;
+    border: solid #E2E2E2 1px;
+    /* order */
+    margin-bottom: 20px;
+}
+/* wb_hd */
+.wb_hd {
+    height: 63px;
+    margin-bottom: 14px;
+    position: relative;
+}
+
+.wb_hd .switch {
+    line-height: 63px;
+    text-align: center;
+}
+
+.wb_hd .switch a {
+    padding: 0 2px;
+    margin: 0 43px;
+    border-bottom: solid #fff 2px;
+}
+
+.wb_hd .switch a.on,
+.wb_hd .switch a:hover {
+    color: #c60081;
+    border-bottom-color: #c60081;
+}
+
+.wb_hd a.btnPrint {
+    background-color: #FDD000;
+    line-height: 35px;
+    text-align: center;
+    color: #3e085c;
+    height: 35px;
+    padding: 1px 14px;
+    margin-top: -17px;
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 50%;
+}
+
+/* 行程 */
+.wb_trip {
+    padding: 0px 52px 50px;
+}
+
+.wb_trip h3 {
+    font-size: 26px;
+    color: #c60081;
+    padding: 27px 0 0;
+}
+
+.wb_trip h4 {
+    line-height: 50px;
+    font-size: 26px;
+    height: 48px;
+    padding-top: 16px;
+    border-bottom: solid #DDD 1px;
+}
+
+.wb_trip h4 span {
+    font-size: 14px;
+    color: #666;
+    padding-left: 38px;
+}
+
+.wb_trip table {
+    width: 100%;
+}
+
+.wb_trip .wb_plan td {
+    line-height: 30px;
+    text-align: center;
+    padding: 22px 10px;
+    border-bottom: dashed #DDD 1px;
+}
+
+.wb_trip .wb_plan td h5 {
+    font-size: 18px;
+}
+
+.wb_trip .wb_plan td .time {
+    background: url("../images/sg_order_go.png") no-repeat 100% 50%;
+}
+
+.wb_trip .wb_plan .sg_tran {
+    background-image: url("../images/bg_order_tran.png");
+    vertical-align: -4px;
+    height: 16px;
+    width: 46px;
+    margin: 0 6px;
+}
+
+.wb_trip .wb_hotel td {
+    text-align: center;
+    padding: 26px 14px;
+    border-bottom: dashed #DDD 1px;
+}
+
+.wb_trip .wb_hotel td.tit {
+    text-align: left;
+    font-size: 16px;
+}
+
+.wb_safe {
+    padding: 0 60px;
+}
+
+.wb_safe table {
+    width: 100%;
+}
+
+.wb_safe td {
+    width: 50%;
+    padding: 26px 0;
+}
+
+.wb_safe td.tit {
+    font-size: 16px;
+}
+
+.wb_guest {
+    padding: 0 0 26px 0;
+}
+
+.wb_item {
+    width: 40%;
+    padding: 30px 9% 20px 0;
+    overflow: hidden;
+}
+
+.wb_item dt {
+    background-color: #FDD000;
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+    width: 27px;
+    height: 27px;
+    margin-top: 3px;
+    margin-left: 68px;
+    overflow: hidden;
+    display: inline-block;
+    border-radius: 27px;
+}
+
+.wb_item dd {
+    line-height: 21px;
+    width: 374px;
+}
+
+.wb_item td {
+    font-weight: 600;
+    padding: 5px 20px 5px 0;
+}
+
+.wb_item td.tit {
+    font-weight: 400;
+}
+
+.wb_item td.tit,
+.wb_item td span {
+    color: #666;
+}
+
+.wb_order {
+    padding: 21px 0 0 0;
+}
+
+.wb_order .w_info {
+    width: 60%;
+}
+
+.wb_order .w_info table {
+    width: 100%;
+}
+
+.wb_order .w_info td {
+    line-height: 21px;
+    padding: 4px 0;
+}
+
+.wb_order .w_info td a {
+    font-weight: 600;
+    color: #fdd000;
+}
+.wb_order .w_info td label{
+    font-weight: 600;
+    color: #c60081;
+    padding-left: 6px;
+}
+
+.wb_order .w_info td.tit {
+    text-align: right;
+    width: 150px;
+    padding-right: 26px;
+}
+
+.wb_order .w_pay {
+    padding-top: 16px;
+    padding-right: 88px;
+}
+
+.wb_order .w_pay span {
+    vertical-align: -24px;
+    color: #fdd000;
+    padding-left: 46px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.wb_order .w_pay span span {
+    font-size: 48px;
+    vertical-align: -16px;
+    padding-left: 0;
+}
+
+.wb_process {
+    text-align: center;
+    font-size: 12px;
+    position: relative;
+    width: 800px;
+    height: 60px;
+}
+
+.wb_process label {
+    background: url("../images/order_process_wait.png") no-repeat 50% 21px;
+    color: #dcdcdc;
+    width: 160px;
+    height: 55px;
+    display: block;
+    float: left;
+    z-index: 9;
+    position: relative;
+}
+
+.wb_process label span {
+    text-indent: -999em;
+    width: 137px;
+    padding-top: 3px;
+    display: block;
+    position: absolute;
+    border-top: solid #DCDCDC 3px;
+    left: -69px;
+    top: 35px;
+}
+.wb_process label span.show {
+    text-indent: 0 !important;
+}
+.wb_process label.ok {
+    background-image: url("../images/order_process_finsh.png");
+    color: #fdd000;
+}
+.wb_process label.ok span{
+    border-top-color: #FDD000;
+}
+
+
+.wb_order .wb_process{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}

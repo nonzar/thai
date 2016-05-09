@@ -1,0 +1,50 @@
+﻿.wrap{
+    background-color: #fff;
+}
+/* 登录 */
+.wb_login {
+    width: 420px;
+    padding-bottom: 170px;
+}
+
+.wb_login h3 {
+    line-height: 81px;
+    font-size: 24px;
+    color: #3e085c;
+    padding-top: 11px;
+}
+
+.wb_login .item {
+    height: 1%;
+    padding-bottom: 26px;
+}
+
+.wb_login .user,
+.wb_login .password {
+    width: 330px;
+}
+
+.wb_login .keepPassword,
+.wb_login .autoLogin {
+    margin-right: 30px;
+}
+
+.wb_login .keepPassword input,
+.wb_login .autoLogin input {
+    vertical-align: -3px;
+    width: 17px;
+    height: 17px;
+    margin-right: 2px;
+}
+
+.wb_login .btnSub {
+    background-color: #FDD000;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    width: 420px;
+    height: 45px;
+    margin-bottom: 7px;
+    border: none;
+    display: block;
+}

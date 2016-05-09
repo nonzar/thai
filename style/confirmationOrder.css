@@ -1,0 +1,220 @@
+﻿.wrap {
+    background-color: #fff;
+}
+
+/* 费用明细 */
+.wb_payDetail {
+    padding-top: 8px;
+    position: relative;
+}
+
+.wb_payDetail b.sg {
+    border-style: solid;
+    border-width: 0 8px 8px;
+    border-color: transparent transparent #380C6D transparent;
+    position: absolute;
+    right: 14px;
+    top: 0;
+}
+
+.wb_payDetail .bd {
+    background-color: #FAF8F8;
+    width: 250px;
+    /*padding-top: 12px;
+    padding-bottom: 2px;*/
+    border-style: solid;
+    border-width: 3px 1px 0;
+    border-color: #380C6D;
+}
+
+.wb_payDetail dl {
+    display: none;
+}
+
+.wb_payDetail dt {
+    font-size: 18px;
+    font-weight: 600;
+    color: #380c6d;
+    padding-top: 15px;
+    padding-bottom: 12px;
+}
+
+.wb_payDetail dt b {
+    background-color: #380C6D;
+    vertical-align: 6px;
+    margin-right: 6px;
+    display: inline-block;
+    width: 16px;
+    height: 1px;
+}
+
+.wb_payDetail dd {
+    padding-left: 12px;
+}
+
+.wb_payDetail table {
+    width: 100%;
+}
+
+.wb_payDetail td {
+    text-align: right;
+    font-size: 16px;
+    padding: 10px 0;
+    padding-right: 22px;
+    border-bottom: dashed #E2E2E2 1px;
+}
+
+.wb_payDetail tr:last-child td {
+    border-bottom-width: 0;
+}
+
+.wb_payDetail td b {
+    color: #fdd000;
+}
+
+.wb_payDetail td.tit {
+    width: 92px;
+    padding-left: 10px;
+    padding-right: 0;
+}
+/* wb_order */
+.wb_order {
+    background-color: #FAF8F8;
+    margin-top: 30px;
+    border-style: solid;
+    border-width: 2px 1px;
+    border-color: #380C6D #DDD;
+    position: relative;
+}
+
+.wb_order .w_hd {
+    line-height: 72px;
+    height: 72px;
+    border-bottom: solid #DDD 1px;
+}
+
+.wb_order .w_hd h3 {
+    font-size: 26px;
+    color: #c60081;
+}
+
+.wb_order .w_hd p {
+    font-size: 18px;
+    line-height: 97px;
+    height: 72px;
+}
+.wb_order .w_hd p span{
+    vertical-align: -2px;
+    color: #fdd000;
+    padding-right: 10px;
+}
+.wb_order .w_hd p span b{
+    font-weight: 400;
+    font-size: 48px;
+}
+.wb_order .w_hd p a {
+    font-size: 14px;
+    color: #380c6d;
+}
+.wb_order .w_hd,
+.wb_order .w_bd{
+    padding: 0 28px;
+}
+.wb_order .wb_payDetail {
+    z-index: 99;
+    position: absolute;
+    right: -1px;
+    top: 62px;
+    -webkit-transition: opacity 500ms;
+    transition: opacity 500ms;
+}
+
+.wb_payDetail.show .bd{
+    padding-top: 12px;
+    padding-bottom: 2px;
+    border-bottom-width: 3px;
+}
+.wb_payDetail.show dl{
+    display: block;
+}
+.wb_order .w_bd{
+
+}
+.wb_order h4{
+    line-height: 50px;
+    font-size: 26px;
+    height: 48px;
+    padding-top: 16px;
+    border-bottom: solid #DDD 1px;
+}
+.wb_order h4 span{
+    font-size: 14px;
+    color: #666;
+    padding-left: 38px;
+}
+
+.wb_order .wb_safe{
+    line-height: 72px;
+    padding: 0 212px;
+}
+.wb_order .wb_hotel{
+    padding: 0 50px;
+}
+.wb_order .wb_hotel table{
+    width: 100%;
+}
+.wb_order .wb_hotel td{
+    text-align: center;
+    padding: 26px 10px;
+    border-bottom: dashed #DDD 1px;
+}
+.wb_order .wb_hotel td.tit{
+    text-align: left;
+    font-size: 16px;
+}
+
+.wb_trip{
+    padding: 0px 50px;
+}
+.wb_trip table{
+    width: 100%;
+}
+.wb_trip td{
+    line-height: 30px;
+    text-align: center;
+    padding: 22px 10px;
+    border-bottom: dashed #DDD 1px;
+}
+.wb_trip td h5{
+    font-size: 18px;
+}
+.wb_trip td .time{
+    background: url("../images/sg_order_go.png") no-repeat 100% 50%;
+}
+.wb_trip .sg_tran {
+    background-image: url("../images/bg_order_tran.png");
+    vertical-align: -4px;
+    height: 16px;
+    width: 46px;
+    margin: 0 6px;
+}
+
+.wb_fun{
+    line-height: 60px;
+    height: 60px;
+    padding: 25px;
+}
+.wb_fun .btnPrev{
+    background: url("../images/sg_user_arrow_l3.png") no-repeat 0 50%;
+    padding-left: 25px;
+    display: inline-block;
+}
+.wb_fun .btnSub{
+    background-color: #FDD000;
+    text-align: center;
+    font-size: 28px;
+    color: #380C6D;
+    width: 300px;
+    height: 60px;
+    border: none;
+}

@@ -1,0 +1,21 @@
+.header .menu {
+    height: 36px;
+    overflow: hidden;
+}
+
+.header .ct a {
+    line-height: 38px;
+}
+
+.header .search .text {
+    line-height: 39px;
+}
+.idx .sliderCtrl .prev:hover{
+    background-image: url("../images/s_arrow1_l_ie.png");
+}
+.idx .sliderCtrl .next:hover {
+    background-image: url("../images/s_arrow1_r_ie.png");
+}
+.idx .sliderCtrl .down:hover {
+    background-image: url("../images/s_arrow1_d_ie.png");
+}

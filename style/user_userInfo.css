@@ -1,0 +1,106 @@
+﻿.wrap {
+    background-color: #fff;
+}
+/* sidebar */
+.sidebar,
+.container {
+    padding-top: 16px;
+    padding-bottom: 38px;
+}
+
+.sidebar {
+    width: 195px;
+}
+
+.container {
+    width: 970px;
+}
+
+/* 旅客信息 */
+.wb_user {
+    background-color: #fff;
+    border: solid #3E085D 1px;
+}
+
+.wb_user .hd {
+    background-color: #CEC0D7;
+    line-height: 44px;
+    height: 44px;
+}
+
+.wb_user .hd p {
+    text-indent: 14px;
+}
+
+.wb_user .hd .ui_textInput2 {
+    vertical-align: 1px;
+    font-size: 12px;
+    line-height: 24px;
+    height: 24px;
+    margin: 0 15px;
+    border-color: #9478A5;
+}
+
+.wb_user .hd .ui_btn {
+    margin-right: 4px;
+}
+
+.wb_user .ft {
+    background-color: #F5F5F5;
+    line-height: 36px;
+    height: 36px;
+    padding: 0 16px;
+}
+
+.wb_user .ft .fun label {
+    margin-right: 14px;
+}
+
+.wb_user .ft .fun label input {
+    vertical-align: -1px;
+    margin-right: 4px;
+}
+
+.wb_user .ft .paging {
+}
+
+.wb_user .ft .paging .prev,
+.wb_user .ft .paging .next {
+    background: no-repeat 50% 50%;
+    vertical-align: -5px;
+    width: 20px;
+    height: 20px;
+    margin: 0 3px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.wb_user .ft .paging .prev {
+    background-image: url("../images/sg_user_arrow_l3.png");
+}
+
+.wb_user .ft .paging .next {
+    background-image: url("../images/sg_user_arrow_r3.png");
+}
+
+.wb_user table {
+    width: 100%;
+}
+.wb_user th {
+    background-color: #F9F9F9;
+    line-height: 36px;
+    font-weight: 400;
+    padding: 0 14px;
+}
+.wb_user td {
+    text-align: center;
+    line-height: 20px;
+    padding: 15px 14px;
+    border-bottom: dashed #E2E2E2 1px;
+}
+.wb_user a{
+    color: #c60081;
+}
+.wb_user .tal{
+    text-align: left;
+}

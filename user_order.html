@@ -1,0 +1,247 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>我的订单</title>
+    <link rel="stylesheet" type="text/css" href="style/base.css" />
+    <link rel="stylesheet" type="text/css" href="style/ui.css" />
+    <link rel="stylesheet" type="text/css" href="style/global.css" />
+    <link rel="stylesheet" type="text/css" href="style/user_order.css" />
+    <script src="script/jquery.min.js"></script>
+    <script src="script/global.js"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="layout mc">
+            <div class="g_menu">
+                <label class="item fl">泰航风兰假期自由行预订平台</label>
+                <label class="item labSetOut fl">出发地:</label>
+                <a class="item setOut fl" href="javascript:;">上海</a>
+                <label class="item log_reg fr"><a href="">登录</a>/<a href="">注册</a></label>
+                <label class="item tel fr"><b>4008002595</b><b>021-61121777</b></label>
+            </div>
+            <!-- logo -->
+            <div class="logobar clearfix">
+                <a class="fl" href=""><img src="uploads/logo.png" width="236" height="70" alt="" /></a>
+                <b class="split fl"></b>
+                <a class="fl" href=""><img src="uploads/lgo_magical.png" width="125" height="70" alt="" /></a>
+                <a class="fr" href=""><img src="uploads/logo_horizontravel.png" width="176" height="70" alt="" /></a>
+            </div>
+        </div>
+    </div>
+    <div class="wrap">
+        <!-- 导航条 -->
+        <div class="g_navigation">
+            <ul class="clearfix">
+                <li class="on"><a href="">首页</a></li>
+                <li><a href="">目的地</a></li>
+                <li><a href="">泰航-风兰假期</a></li>
+                <li><a href="">认识泰国</a></li>
+            </ul>
+        </div>
+        <div class="layout mc clearfix">
+            <div class="g_crumbsNav">
+                <p class="crumbs"><a href="">首页</a>&gt;<a class="on" href="">我的订单</a></p>
+            </div>
+            <div class="sidebar fl">
+                <ul class="g_sidebar_nav">
+                    <li class="on"><a href="">个人中心</a></li>
+                    <li><a href="">修改密码</a></li>
+                    <li><a href="">我的订单</a></li>
+                    <li><a href="">常用信息管理</a></li>
+                </ul>
+            </div>
+            <div class="container fr">
+                <ul class="w_switch clearfix">
+                    <li class="on"><a href="javascript:;">全部订单</a></li>
+                    <li><a href="javascript:;">待完成订单</a></li>
+                    <li><a href="javascript:;">已完成订单</a></li>
+                </ul>
+                <div class="w_nothing">
+                    暂时没有相关订单
+                </div>
+                <table class="w_th clearfix">
+                    <thead>
+                        <tr>
+                            <th class="tal" style="width: 230px;">套餐类型</th>
+                            <th style="width: 0px;">旅客</th>
+                            <th style="width: 106px;">行程/有效日期</th>
+                            <th style="width: 112px;">总金额</th>
+                            <th style="width: 124px;">订单状态</th>
+                            <th style="width: 112px;">操作</th>
+                        </tr>
+                    </thead>
+                </table>
+                <ul class="w_orderList">
+                    <li class="w_item">
+                        <div class="hd"><label><input type="checkbox" />订单号:123456789</label><label>预定日期:2015-7-13</label></div>
+                        <div class="bd">
+                            <table>
+                                <tr>
+                                    <td style="width: 230px;">上海-曼谷-普吉-曼谷-上海（往返）</td>
+                                    <td class="tac">Vivian;Athing</td>
+                                    <td class="tac" style="width: 106px;">
+                                        <p>2015-06-13 08:20</p>
+                                        <p>2015-06-13 08:20</p>
+                                        <p>2015-06-13 08:20</p>
+                                    </td>
+                                    <td class="td_pay" style="width:112px;">
+                                        <p>￥15000</p>
+                                    </td>
+                                    <td class="td_result">
+                                        <p>已支付</p>
+                                        <p>已确认</p>
+                                    </td>
+                                    <td class="tac" style="width:112px;">
+                                        <p><a href="">查看订单详情</a></p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </li>
+                    <li class="w_item">
+                        <div class="hd"><label><input type="checkbox" />订单号:123456789</label><label>预定日期:2015-7-13</label></div>
+                        <div class="bd">
+                            <table>
+                                <tr>
+                                    <td>上海-曼谷-普吉-曼谷-上海（往返）</td>
+                                    <td class="tac">Vivian;Athing</td>
+                                    <td>
+                                        <p>2015-06-13 08:20</p>
+                                        <p>2015-06-13 08:20</p>
+                                        <p>2015-06-13 08:20</p>
+                                    </td>
+                                    <td class="td_pay" style="width:112px;">
+                                        <p>￥15000</p>
+                                    </td>
+                                    <td class="td_result">
+                                        <p>已支付</p>
+                                        <p>已确认</p>
+                                    </td>
+                                    <td class="tac" style="width:112px;">
+                                        <p><a href="">查看订单详情</a></p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </li>
+                    <li class="w_item">
+                        <div class="hd"><label><input type="checkbox" />订单号:123456789</label><label>预定日期:2015-7-13</label></div>
+                        <div class="bd">
+                            <table>
+                                <tr>
+                                    <td>上海-曼谷-普吉-曼谷-上海（往返）</td>
+                                    <td class="tac">Vivian;Athing</td>
+                                    <td>
+                                        <p>2015-06-13 08:20</p>
+                                        <p>2015-06-13 08:20</p>
+                                        <p>2015-06-13 08:20</p>
+                                    </td>
+                                    <td class="td_pay" style="width:112px;">
+                                        <p>￥15000</p>
+                                    </td>
+                                    <td class="td_result">
+                                        <p><a class="color_c60081" href="">去支付</a></p>
+                                        <p>已确认</p>
+                                    </td>
+                                    <td class="tac" style="width:112px;">
+                                        <p><a href="">查看订单详情</a></p>
+                                        <p><a href="">取消订单</a></p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </li>
+                    <li class="w_item">
+                        <div class="hd"><label><input type="checkbox" />订单号:123456789</label><label>预定日期:2015-7-13</label></div>
+                        <div class="bd">
+                            <table>
+                                <tr>
+                                    <td>上海-曼谷-普吉-曼谷-上海（往返）</td>
+                                    <td class="tac">Vivian;Athing</td>
+                                    <td>
+                                        <p>2015-06-13 08:20</p>
+                                        <p>2015-06-13 08:20</p>
+                                        <p>2015-06-13 08:20</p>
+                                    </td>
+                                    <td class="td_pay" style="width:112px;">
+                                        <p>￥15000</p>
+                                    </td>
+                                    <td class="td_result">
+                                        <p><a class="color_8e8e8e" href="">去支付</a></p>
+                                        <p>已确认</p>
+                                    </td>
+                                    <td class="tac" style="width:112px;">
+                                        <p><a href="">查看订单详情</a></p>
+                                        <p><a href="">取消订单</a></p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </li>
+                    <li class="w_item">
+                        <div class="hd"><label><input type="checkbox" />订单号:123456789</label><label>预定日期:2015-7-13</label></div>
+                        <div class="bd">
+                            <table>
+                                <tr>
+                                    <td>上海-曼谷-普吉-曼谷-上海（往返）</td>
+                                    <td class="tac">Vivian;Athing</td>
+                                    <td>
+                                        <p>2015-06-13 08:20</p>
+                                        <p>2015-06-13 08:20</p>
+                                        <p>2015-06-13 08:20</p>
+                                    </td>
+                                    <td class="td_pay" style="width:112px;">
+                                        <p>￥15000</p>
+                                    </td>
+                                    <td class="td_result">
+                                        <p><a class="color_8e8e8e" href="">去支付</a></p>
+                                        <p>已确认</p>
+                                    </td>
+                                    <td class="tac" style="width:112px;">
+                                        <p><a href="">查看订单详情</a></p>
+                                        <p><a href="">取消订单</a></p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </li>
+                </ul>
+                <div class="wb_ft clearfix">
+                    <p class="w_fun fl"><label><input type="checkbox" name="" />全选</label><a href="javascript:;">删除</a></p>
+                    <p class="w_goto fr">到<input class="text" type="text" name="" value="1" style="width: 25px;" />页<input class="btnSub" type="button" name="" value="确定" /></p>
+                    <p class="w_paging fr"><a class="prev" href="">&nbsp;</a><a class="on" href="">1</a><a href="">2</a><a class="next" href="">下一页</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="g_about">
+        <div class="layout mc clearfix">
+            <div class="qrCode fl">
+                <img width="114" height="114" src="uploads/qrCode_thai.png" alt="泰国国际航空微信" />
+                <p>泰国国际航空微信</p>
+            </div>
+            <div class="qrCode fl">
+                <img width="114" height="114" src="uploads/qrCode_thai.png" alt="泰国旅游局上海办事处微信" />
+                <p>泰国旅游局上海办事处微信</p>
+            </div>
+            <div class="qrCode fl">
+                <img width="114" height="114" src="uploads/qrCode_thai.png" alt="御游网微信" />
+                <p>御游网微信</p>
+            </div>
+            <dl class="item fr">
+                <dt>支持的信用卡类型</dt>
+                <dd><img src="uploads/payOrganization.png" width="440" height="50" alt="" /></dd>
+            </dl>
+            <p class="cb nav"><span><a href="">关于我们</a></span><span><a href="">预订须知</a></span><span><a href="">预订流程</a></span><span><a href="">常见问题</a></span></p>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Copyright&nbsp;&copy;2015&nbsp;HorizonTravel.com.cn&nbsp;网站备案/许可证编号:&nbsp;沪ICP备09033352号-3</p>
+    </div>
+    <script>
+        mCtrl.initPage("userOrder");
+    </script>
+</body>
+</html>

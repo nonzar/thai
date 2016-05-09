@@ -1,0 +1,132 @@
+﻿.wrap{
+    background-color: #fff;
+}
+/* 登录 */
+.wb_reg {
+    width: 420px;
+    padding-bottom: 170px;
+}
+
+.wb_reg h3 {
+    line-height: 81px;
+    font-size: 24px;
+    color: #3e085c;
+    padding-top: 11px;
+}
+
+.wb_reg .item {
+    height: 1%;
+    padding-bottom: 26px;
+}
+
+.wb_reg .account,
+.wb_reg .user,
+.wb_reg .password {
+    width: 330px;
+}
+
+.wb_reg .keepPassword,
+.wb_reg .autoLogin {
+    margin-right: 30px;
+}
+
+.wb_reg .keepPassword input,
+.wb_reg .autoLogin input {
+    vertical-align: -3px;
+    width: 17px;
+    height: 17px;
+    margin-right: 2px;
+}
+
+.wb_reg .verCode {
+    line-height: 44px;
+    color: #a8a8a8;
+    width: 120px;
+    height: 44px;
+    padding: 0 66px 0 22px;
+    outline: none;
+    overflow: hidden;
+    border: solid #2F0D41 1px;
+}
+
+.wb_reg .getVerCode {
+    background-color: #FDD000;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    width: 182px;
+    height: 45px;
+    margin-bottom: 7px;
+    border: none;
+    display: block;
+}
+
+.wb_reg .agreement input {
+    vertical-align: -3px;
+    width: 17px;
+    height: 17px;
+    margin-right: 2px;
+}
+
+.wb_reg .btnSub {
+    background-color: #FDD000;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    width: 420px;
+    height: 45px;
+    margin-bottom: 7px;
+    border: none;
+    display: block;
+}
+
+.wb_agreement {
+    background-color: #fff;
+    width: 1090px;
+    padding: 15px 20px;
+    margin-left: -550px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border: solid #F2F2F2 15px;
+}
+
+.wb_agreement .btnClose {
+    background: url("../images/sg_close.png") no-repeat 50% 50%;
+    width: 50px;
+    height: 50px;
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.wb_agreement h3 {
+    font-size: 24px;
+    padding-bottom: 19px;
+}
+
+.wb_agreement .text {
+    background-color: #FFFFFF;
+    font-size: 18px;
+    line-height: 30px;
+    max-height: 570px;
+    padding: 16px 12px;
+    margin-bottom: 30px;
+    overflow: auto;
+    border: solid #F2F2F2 3px;
+}
+
+.wb_agreement .btnAgree {
+    background-color: #FDD000;
+    text-align: center;
+    font-size: 18px;
+    line-height: 45px;
+    color: #3e085c;
+    width: 420px;
+    height: 45px;
+    display: block;
+    overflow: hidden;
+}

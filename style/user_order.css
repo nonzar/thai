@@ -1,0 +1,208 @@
+﻿.wrap {
+    background-color: #fff;
+}
+/* sidebar */
+.sidebar,
+.container {
+    padding-top: 16px;
+    padding-bottom: 38px;
+}
+
+.sidebar {
+    width: 195px;
+}
+
+.container {
+    width: 970px;
+}
+
+/* switch */
+.w_switch {
+    background: url("../images/bg_user_order.png") repeat-x 0 -5px;
+    border-top: solid #3E085D 3px;
+}
+
+.w_switch li {
+    float: left;
+}
+
+.w_switch li a {
+    text-align: center;
+    line-height: 45px;
+    font-size: 18px;
+    color: #101010;
+    height: 45px;
+    padding: 0 35px;
+    float: left;
+    display: block;
+    overflow: hidden;
+    border-bottom: solid #fff 3px;
+}
+
+.w_switch li.on a {
+    color: #3e085c;
+    border-bottom-color: #3E085D;
+}
+
+/* th */
+.w_th {
+    background-color: #F9F9F9;
+    width:100%;
+    margin-top: 20px;
+}
+.w_th th{
+    font-weight: 400;
+    text-align: center;
+    line-height:34px;
+    padding: 0 14px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #EAEAEA #F9F9F9;
+}
+.w_th th.tal {
+    text-indent: 28px;
+    text-align: left;
+}
+
+.w_th li {
+    line-height: 34px;
+    height: 34px;
+    float: left;
+}
+
+/* nothing */
+.w_nothing{
+    background-color: #F9F9F9;
+    text-align: center;
+    line-height: 220px;
+    height: 220px;
+    margin-top: 20px;
+    overflow: hidden;
+    border-width: 1px 0;
+    border-color: #EAEAEA;
+    border-style: solid;
+}
+
+/* orderList */
+.w_orderList {
+    padding-top: 20px;
+}
+
+.w_item {
+    background-color: #fff;
+    margin-bottom: 20px;
+    border: solid #481366 1px;
+}
+
+.color_c60081 {
+    font-weight: 600;
+    color: #c60081 !important;
+}
+
+.color_8e8e8e {
+    color: #8e8e8e !important;
+}
+
+.w_item .hd{
+    background-color: #CEC0D7;
+    font-size: 13px;
+    line-height: 33px;
+    height: 33px;
+    padding: 0 15px;
+}
+.w_item .hd label{
+    padding-right: 38px;
+}
+.w_item .hd input{
+    vertical-align: -1px;
+    margin-right: 4px;
+}
+.w_item .bd{
+    background-color: #fff;
+}
+.w_item table{
+    width: 100%;
+}
+.w_item td{
+    line-height: 20px;
+    font-size: 13px;
+    vertical-align: middle;
+    padding: 5px 14px;
+}
+
+.td_pay{
+    text-align: center;
+    color: #fdd000;
+}
+.td_result{
+    text-align: center;
+    width: 122px;
+    border-left: solid #3E085D 1px;
+    border-right: solid #3E085D 1px;
+}
+
+.w_fun{
+    padding-left: 16px;
+}
+.w_fun label{
+    padding-right: 14px;
+}
+.w_fun input{
+    vertical-align: -1px;
+    margin-right: 3px;
+}
+
+.w_paging{
+    font-size: 12px;
+}
+.w_paging a{
+    background-color: #fff;
+    line-height: 18px;
+    font-size: 12px;
+    height: 18px;
+    padding: 0 5px;
+    margin: 0 4px;
+    display: inline-block;
+    border: solid #E0E0E0 1px;
+}
+.w_paging .on{
+    background-color: #FDD000;
+    color: #fff;
+    border-color: #FDD000;
+}
+.w_paging .prev{
+    background: url("../images/sg_user_arrow_l4.png") no-repeat 50% 50%;
+    width: 18px;
+    height: 18px;
+    padding: 0;
+    border-color: #E0E0E0;
+}
+.w_paging .next {
+    background: url("../images/sg_user_arrow_r2.png") no-repeat 100% 50%;
+    padding-right: 21px;
+}
+
+.w_goto{
+    line-height: 20px;
+    padding-left: 11px;
+}
+.w_goto .text{
+    text-align: center;
+    vertical-align: 1px;
+    font-size: 12px;
+    line-height: 18px;
+    height: 18px;
+    margin: 0 2px;
+    overflow: hidden;
+    border: solid #E0E0E0 1px;
+}
+.w_goto .btnSub{
+    background: url("../images/bg_user_paging.png") no-repeat 0 0;
+    vertical-align: 2px;
+    font-size: 12px;
+    height: 18px;
+    padding: 0 6px;
+    margin-left: 10px;
+    overflow: hidden;
+    border: solid #E0E0E0 1px;
+}

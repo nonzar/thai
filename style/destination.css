@@ -1,0 +1,33 @@
+﻿.wrap {
+    background-color: #fff;
+}
+
+/* 目的地 */
+.wb_destination {
+    padding-top: 26px;
+}
+
+.wb_destination {
+    width: 1200px;
+    padding-top: 18px;
+    padding-bottom: 15px;
+}
+
+.wb_destination ul {
+    width: 1300px;
+    overflow: hidden;
+}
+
+.wb_destination li {
+    padding-right: 27px;
+    padding-bottom: 25px;
+    float: left;
+}
+
+.wb_destination .item2 {
+    width: 789px;
+}
+
+.wb_destination .item {
+    width: 380px;
+}

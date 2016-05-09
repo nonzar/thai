@@ -1,0 +1,76 @@
+﻿.wrap {
+    background-color: #fff;
+}
+
+/* success */
+.w_success {
+    padding-bottom: 110px;
+    margin-top: 30px;
+}
+
+.w_success .hd {
+    background-color: #FAF8F8;
+    height: 70px;
+    padding: 0 30px;
+    border-style: solid;
+    border-width: 2px 0;
+    border-color: #380C6D;
+    position: relative;
+
+    display: none;
+}
+
+.w_success .tit {
+    line-height: 70px;
+    font-size: 26px;
+    color: #c60081;
+}
+
+.w_success .pay {
+    font-size: 18px;
+    position: relative;
+    top: 10px;
+}
+
+.w_success .pay span {
+    font-size: 16px;
+    color: #fdd000;
+}
+
+.w_success .pay span b {
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.w_resutlt{
+    text-align: center;
+    line-height: 95px;
+    font-size: 22px;
+    color: #3e085c;
+    padding-top: 38px;
+}
+.w_tips{
+    font-size:16px;
+}
+.w_fun{
+    font-size: 16px;
+    width: 355px;
+    padding-top: 116px;
+}
+.w_fun a{
+    color: #c60081;
+}
+.w_fun p{
+    line-height: 35px;
+}
+.btnPay{
+    background-color: #FDD000;
+    font-size: 28px;
+    line-height: 60px;
+    text-align: center;
+    color: #380c6d !important;
+    width: 300px;
+    height: 60px;
+    overflow: hidden;
+    display: inline-block;
+}

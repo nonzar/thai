@@ -1,0 +1,300 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>订单详情</title>
+    <link rel="stylesheet" type="text/css" href="style/base.css" />
+    <link rel="stylesheet" type="text/css" href="style/ui.css" />
+    <link rel="stylesheet" type="text/css" href="style/global.css" />
+    <link rel="stylesheet" type="text/css" href="style/order_detail.css" />
+    <link href="style/idangerous.swiper.css" rel="stylesheet" type="text/css" />
+    <script src="script/jquery.min.js"></script>
+    <script src="script/idangerous.swiper.min.js"></script>
+    <script src="script/global.js"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="layout mc">
+            <div class="g_menu">
+                <label class="item fl">泰航风兰假期自由行预订平台</label>
+                <label class="item labSetOut fl">出发地:</label>
+                <a class="item setOut fl" href="javascript:;">上海</a>
+                <label class="item log_reg fr"><a href="">登录</a>/<a href="">注册</a></label>
+                <a class="item logByWechat fr" href="javascript:;"></a>
+                <a class="item logByQQ fr" href="javascript:;"></a>
+                <label class="item tel fr"><b>4008002595</b><b>021-61121777</b></label>
+            </div>
+            <!-- logo -->
+            <div class="logobar clearfix">
+                <a class="fl" href=""><img src="uploads/logo.png" width="236" height="70" alt="" /></a>
+                <b class="split fl"></b>
+                <a class="fl" href=""><img src="uploads/lgo_magical.png" width="125" height="70" alt="" /></a>
+                <a class="fr" href=""><img src="uploads/logo_horizontravel.png" width="176" height="70" alt="" /></a>
+            </div>
+        </div>
+    </div>
+    <div class="wrap">
+        <!-- 导航条 -->
+        <div class="g_navigation">
+            <ul class="clearfix">
+                <li class="on"><a href="">首页</a></li>
+                <li><a href="">目的地</a></li>
+                <li><a href="">泰航-风兰假期</a></li>
+                <li><a href="">认识泰国</a></li>
+            </ul>
+        </div>
+        <div class="layout mc">
+            <div class="g_crumbsNav">
+                <p class="crumbs"><a href="">首页</a>&gt;<a class="on" href="">我的订单</a>&gt;<a class="on" href="">查看订单详情</a></p>
+            </div>
+            <div class="wb_hd clearfix">
+                <div class="switch"><a href="#wb_win_hd1">订单详情</a><a href="#wb_win_hd2">行程</a><a href="#wb_win_hd3">旅客</a><a href="#wb_win_hd4">保险</a><a href="#wb_win_hd5">联系人</a></div>
+                <a class="btnPrint fr" href="">打印订单</a>
+            </div>
+            <h3 id="wb_win_hd1" class="wb_win_hd">订单信息</h3>
+            <div class="wb_win_bd wb_order clearfix">
+                <div class="w_info fl">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td class="tit">当前状态</td>
+                                <td>等待支付<a class="tdl" href="">(去支付)</a><label>请于2小时内付款哦！2小时后自动取消订单！</label></td>
+                            </tr>
+                            <tr>
+                                <td class="tit">套餐</td>
+                                <td>曼谷+普吉自由行</td>
+                            </tr>
+                            <tr>
+                                <td class="tit">112343223</td>
+                                <td>2015-07-30</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p class="w_pay fr">总金额<span>￥<span>11670</span></span></p>
+                <div class="wb_process clearfix cb mc">
+                    <label class="ok">行程预订</label>
+                    <label class="ok">订单提交<span>等待提交</span></label>
+                    <label class="ok">订单确认<span>等待确认</span></label>
+                    <label>订单支付<span>等待支付</span></label>
+                    <label>订单评价<span>等待评价</span></label>
+                </div>
+            </div>
+            <h3 id="wb_win_hd2" class="wb_win_hd">行程</h3>
+            <div class="wb_win_bd wb_trip">
+                <h3>曼谷+普吉自由行</h3>
+                <h4>机票<span>所有航班起抵时间均为当地时间（24小时制）</span></h4>
+                <div class="wb_plan">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>2015-06-18</td>
+                                <td>
+                                    <h5>上海&nbsp;浦东国际机场上海</h5>
+                                    <p>08:20</p>
+                                </td>
+                                <td>
+                                    <div class="time">
+                                        <p>泰国航空公司 TG663</p>
+                                        <p>全程1小时40分</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <h5>曼谷&nbsp;廊曼国际机场</h5>
+                                    <p>11:00<span class="sg_tran cimg"></span>12:15</p>
+                                </td>
+                                <td>
+                                    <div class="time">
+                                        <p>泰国航空公司 TG663</p>
+                                        <p>全程1小时40分</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <h5>上海&nbsp;浦东国际机场上海</h5>
+                                    <p>08:20</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2015-06-18</td>
+                                <td>
+                                    <h5>上海&nbsp;浦东国际机场上海</h5>
+                                    <p>08:20</p>
+                                </td>
+                                <td colspan="3" width="500">
+                                    <div class="time">
+                                        <p>泰国航空公司 TG663</p>
+                                        <p>全程1小时40分</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <h5>上海&nbsp;浦东国际机场上海</h5>
+                                    <p>08:20</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2015-06-18</td>
+                                <td>
+                                    <h5>上海&nbsp;浦东国际机场上海</h5>
+                                    <p>08:20</p>
+                                </td>
+                                <td colspan="3" width="500">
+                                    <div class="time">
+                                        <p>泰国航空公司 TG663</p>
+                                        <p>全程1小时40分</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <h5>上海&nbsp;浦东国际机场上海</h5>
+                                    <p>08:20</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <h4>酒店</h4>
+                <div class="wb_hotel">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>06-18—06-20</td>
+                                <td class="tit tar">普吉岛JW万豪度假酒店及水疗中心(JW Marriott Phuket Resort and Spa)</td>
+                                <td>(单卧别墅)</td>
+                                <td>3间/2晚</td>
+                            </tr>
+                            <tr>
+                                <td>06-18—06-20</td>
+                                <td class="tit tar">普吉岛JW万豪度假酒店及水疗中心(JW Marriott Phuket Resort and Spa)</td>
+                                <td>(单卧别墅)</td>
+                                <td>3间/2晚</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <h3 id="wb_win_hd3" class="wb_win_hd">旅客</h3>
+            <div class="wb_win_bd wb_guest clearfix">
+                <dl class="wb_item fl clearfix">
+                    <dt class="fl">1</dt>
+                    <dd class="fr">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td class="tit tar">姓名</td>
+                                    <td>Vivian<span>（成人）</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="tit tar">证件信息</td>
+                                    <td>护照&nbsp;&nbsp;&nbsp;887645**********51</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </dd>
+                </dl>
+                <dl class="wb_item fl clearfix">
+                    <dt class="fl">2</dt>
+                    <dd class="fr">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td class="tit tar">姓名</td>
+                                    <td>Vivian<span>（成人）</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="tit tar">证件信息</td>
+                                    <td>护照&nbsp;&nbsp;&nbsp;887645**********51</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </dd>
+                </dl>
+                <dl class="wb_item fl clearfix">
+                    <dt class="fl">3</dt>
+                    <dd class="fr">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td class="tit tar">姓名</td>
+                                    <td>Vivian<span>（儿童）</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="tit tar">证件信息</td>
+                                    <td>护照&nbsp;&nbsp;&nbsp;887645**********51</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </dd>
+                </dl>
+            </div>
+            <h3 id="wb_win_hd4" class="wb_win_hd">保险</h3>
+            <div class="wb_win_bd wb_safe">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td class="tit tal">美亚意外险</td>
+                            <td class="tar">3份</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <h3 id="wb_win_hd5" class="wb_win_hd">联系人</h3>
+            <div class="wb_win_bd clearfix">
+                <dl class="wb_item fl clearfix">
+                    <dt class="fl">1</dt>
+                    <dd class="fr">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td class="tit tar">姓名</td>
+                                    <td>王帅</td>
+                                </tr>
+                                <tr>
+                                    <td class="tit tar">联系手机</td>
+                                    <td>13598767876</td>
+                                </tr>
+                                <tr>
+                                    <td class="tit tar">邮箱</td>
+                                    <td>Vivian@Vivian.com</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+    <div class="g_about">
+        <div class="layout mc clearfix">
+            <div class="qrCode fl">
+                <img width="114" height="114" src="uploads/qrCode_thai.png" alt="泰国国际航空微信" />
+                <p>泰国国际航空微信</p>
+            </div>
+            <div class="qrCode fl">
+                <img width="114" height="114" src="uploads/qrCode_thai.png" alt="泰国旅游局上海办事处微信" />
+                <p>泰国旅游局上海办事处微信</p>
+            </div>
+            <div class="qrCode fl">
+                <img width="114" height="114" src="uploads/qrCode_thai.png" alt="御游网微信" />
+                <p>御游网微信</p>
+            </div>
+            <dl class="item fr">
+                <dt>支持的信用卡类型</dt>
+                <dd><img src="uploads/payOrganization.png" width="440" height="50" alt="" /></dd>
+            </dl>
+            <p class="cb nav"><span><a href="">关于我们</a></span><span><a href="">预订须知</a></span><span><a href="">预订流程</a></span><span><a href="">常见问题</a></span></p>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Copyright&nbsp;&copy;2015&nbsp;HorizonTravel.com.cn&nbsp;网站备案/许可证编号:&nbsp;沪ICP备09033352号-3</p>
+    </div>
+    <ul class="g_tool">
+        <li class="wechat"><a href=""></a></li>
+        <li class="qq"><a href=""></a></li>
+        <li class="chat"><a href=""></a></li>
+        <li class="up"><a href="javascript:;"></a></li>
+    </ul>
+    <script>
+        mCtrl.initPage("orderDetail");
+    </script>
+</body>
+</html>

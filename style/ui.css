@@ -1,0 +1,301 @@
+﻿/* number sg */
+.ui_sgNum{
+    background-color: #FDD000;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    font-weight: 400;
+    color: #fff;
+    min-width: 16px;
+    height: 28px;
+    padding: 0 6px;
+    overflow: hidden;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+/* ui_btn */
+.ui_btn{
+    background: url("../images/ui_btn_bg1.png") no-repeat 0 0;
+    line-height: 24px;
+    height: 26px;
+    padding: 0 18px;
+    border: solid #8C709D 1px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+/* text input */
+.ui_textInput_earth,
+.ui_textInput_date {
+    background: #fff url("../images/ui_bg_textInput.png") no-repeat;
+    height: 35px;
+    overflow: hidden;
+    display: inline-block;
+    border: solid #2F0D41 1px;
+}
+.ui_textInput_earth input,
+.ui_textInput_date input{
+    background: none;
+    line-height: 35px;
+    font-size: 16px;
+    color: #a8a8a8;
+    height: 35px;
+    padding: 0 16px;
+    float: left;
+    overflow: hidden;
+    border: none;
+    outline: none;
+}
+.ui_textInput_earth a,
+.ui_textInput_date a{
+    background: #fff url("../images/ui_bg_textInput.png") no-repeat 100% 0;
+    width: 40px;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    display: inline-block;
+}
+.ui_textInput_earth input.on,
+.ui_textInput_date input.on {
+    color: #101010;
+}
+.ui_textInput_earth{
+    width: 378px;
+}
+.ui_textInput_earth input {
+    width: 306px;
+}
+.ui_textInput_earth a {
+}
+.ui_textInput_date{
+    width: 252px;
+}
+.ui_textInput_date input {
+    width: 180px;
+}
+.ui_textInput_date a {
+    background-position: 100% -35px;
+}
+
+/* ui_textInput2 */
+.ui_textInput2{
+    background: url("../images/ui_textInput2_bg.png") no-repeat 0 0;
+    line-height: 35px;
+    color: #3f3f3f;
+    height: 35px;
+    padding: 0 10px;
+    overflow: hidden;
+    border: solid #E0E0E0 1px;
+}
+.ui_textInput2.on{
+    background-position: 0 -35px;
+    color: #101010;
+    border-color: #2F0D41;
+}
+
+/* ui_textInput */
+.ui_textInput{
+    background: #fff url("../images/ui_sg_textInput.png") no-repeat 100% 0;
+    line-height: 44px;
+    color: #a8a8a8;
+    height: 44px;
+    padding: 0 66px 0 22px;
+    outline: none;
+    overflow: hidden;
+    border: solid #2F0D41 1px;
+}
+.ui_textInput.on{
+    color: #101010;
+}
+.ui_textInput.user {
+    background-position: 100% 0;
+}
+.ui_textInput.password {
+    background-position: 100% -44px;
+}
+.ui_textInput.account  {
+    background-position: 100% -88px;
+}
+
+/* ui_dropList */
+.ui_dropList{
+    background-color: #fff;
+    width: 378px;
+    overflow: hidden;
+    border: solid #2F0D41 1px;
+    position: relative;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: opacity 500ms;
+    transition: opacity 500ms;
+}
+.ui_dropList li{
+    text-indent: 16px;
+    color: #101010;
+    height: 36px;
+    line-height: 36px;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    overflow: hidden;
+    border-bottom: solid #E0E0E0 1px;
+}
+.ui_dropList li:hover{
+    background-color: #F5F3FB;
+}
+.ui_dropList.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* ui_select */
+.ui_select {
+    background: #fff url("../images/ui_bg_textInput.png") no-repeat 100% -70px;
+    width: 100px;
+    height: 35px;
+    overflow: hidden;
+    display: inline-block;
+    border: solid #2F0D41 1px;
+}
+.ui_select select{
+    background: none;
+    font-size: 16px;
+    width: 120px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 35px;
+    overflow: hidden;
+    display: block;
+    border: none;
+}
+
+.ui_select.small {
+    background-position: 100% -105px;
+    width: 70px;
+    height: 24px;
+}
+.ui_select.small select{
+    font-size: 12px;
+    width: 90px;
+    height: 24px;
+    padding-top: 6px;
+    padding-bottom: 5px;
+}
+
+/* ui_title1 */
+.ui_title1{
+    line-height: 30px;
+    height: 30px;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+.ui_title1 .line{
+    width: 100%;
+    height: 14px;
+    overflow: hidden;
+    display: block;
+    border-bottom: solid #D7D7D7 1px;
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    top:0;
+}
+.ui_title1 h3,
+.ui_title1 h4{
+    background-color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    color: #3e085c;
+    padding: 0 32px;
+    display: inline;
+    z-index: 2;
+    position: relative;
+}
+
+/* ui_ptobox:图片居中,需另外设置代码 */
+.ui_ptobox{
+    overflow: hidden;
+    display: block;
+    position: relative;
+}
+.ui_ptobox img{
+    display: block;
+    position: relative;
+    left: 50%;
+    top: 50%;
+}
+
+/* ui_goods */
+.ui_goods{
+    background-color: #F2F7FB;
+    border: solid #E0E0E0 1px;
+    position: relative;
+}
+.ui_goods .ui_ptobox{
+    width: 100%;
+    height: 330px;
+}
+.ui_goods .w_tit{
+    background-color: rgba(255,255,255,0.9);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#eeffffff,endColorstr=#eeffffff);
+    line-height: 65px;
+    font-size: 18px;
+    width: 100%;
+    height: 65px;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    bottom: 36px;
+}
+.ui_goods .w_tit h4{
+    padding-left: 22px;
+}
+.ui_goods .w_tit span{
+    font-size: 12px;
+    color: #fdd000;
+    padding-right: 22px;
+}
+.ui_goods .w_tit b{
+    font-weight: 400;
+    font-size: 28px;
+}
+.ui_goods .btnOrder{
+    background-color: #F5F5F5;
+    line-height: 35px;
+    text-align: center;
+    color: #101010;
+    width: 100%;
+    height: 35px;
+    overflow: hidden;
+    display: block;
+    border-top: dashed #E2E2E2 1px;
+}
+
+.ui_goods:hover {
+    box-shadow: rgba(0,0,0,0.5) 0 0 8px;
+}
+.ui_goods:hover *{
+    font-weight: 600;
+}
+/* ui_mask */
+.ui_mask{
+    background-color: rgba(0,0,0,0.3);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#CC000000,endColorstr=#CC000000);
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    opacity: 0;
+    visibility: hidden;
+    position: fixed;
+    _position: absolute;
+    left: 0;
+    top: 0;
+    -webkit-transition: opacity 500ms;
+}
+.ui_mask.show {
+    opacity: 1;
+}
+.ui_mask_bd {
+}

@@ -1,0 +1,415 @@
+﻿select {
+    background: url("../images/ui_textInput2_bg.png") no-repeat 0 0;
+    font-size: 14px;
+    height: 26px;
+    padding: 0 5px;
+    overflow: hidden;
+    border: solid #E0E0E0 1px;
+}
+.layout{
+    position: relative;
+}
+.wrap {
+    background-color: #fff;
+}
+
+/* 费用明细 */
+.wb_payDetail {
+    padding-top: 8px;
+    position: relative;
+}
+
+.wb_payDetail b.sg {
+    border-style: solid;
+    border-width: 0 8px 8px;
+    border-color: transparent transparent #380C6D transparent;
+    position: absolute;
+    right: 14px;
+    top: 0;
+}
+
+.wb_payDetail .bd {
+    background-color: #FAF8F8;
+    width: 250px;
+    /*padding-top: 12px;
+    padding-bottom: 2px;*/
+    border-style: solid;
+    border-width: 3px 1px 0;
+    border-color: #380C6D;
+}
+
+.wb_payDetail dl {
+    display: none;
+}
+
+.wb_payDetail dt {
+    font-size: 18px;
+    font-weight: 600;
+    color: #380c6d;
+    padding-top: 15px;
+    padding-bottom: 12px;
+}
+
+.wb_payDetail dt b {
+    background-color: #380C6D;
+    vertical-align: 6px;
+    margin-right: 6px;
+    display: inline-block;
+    width: 16px;
+    height: 1px;
+}
+
+.wb_payDetail dd {
+    padding-left: 12px;
+}
+
+.wb_payDetail table {
+    width: 100%;
+}
+
+.wb_payDetail td {
+    text-align: right;
+    font-size: 16px;
+    padding: 10px 0;
+    padding-right: 22px;
+    border-bottom: dashed #E2E2E2 1px;
+}
+
+.wb_payDetail tr:last-child td {
+    border-bottom-width: 0;
+}
+
+.wb_payDetail td b {
+    color: #fdd000;
+}
+
+.wb_payDetail td.tit {
+    width: 92px;
+    padding-left: 10px;
+    padding-right: 0;
+}
+/* wb_order */
+.wb_order {
+    background-color: #FAF8F8;
+    margin-top: 30px;
+    border-style: solid;
+    border-width: 2px 1px;
+    border-color: #380C6D #DDD;
+    position: relative;
+}
+
+.wb_order .w_hd {
+    line-height: 72px;
+    height: 72px;
+    border-bottom: solid #DDD 1px;
+}
+
+.wb_order .w_hd h3 {
+    font-size: 26px;
+    color: #c60081;
+}
+
+.wb_order .w_hd p {
+    font-size: 18px;
+    line-height: 97px;
+    height: 72px;
+}
+
+.wb_order .w_hd p span {
+    vertical-align: -2px;
+    color: #fdd000;
+    padding-right: 10px;
+}
+
+.wb_order .w_hd p span b {
+    font-weight: 400;
+    font-size: 48px;
+}
+
+.wb_order .w_hd p a {
+    font-size: 14px;
+    color: #380c6d;
+}
+
+.wb_order .w_hd,
+.wb_order .w_bd {
+    padding: 0 28px;
+}
+
+.wb_payDetail {
+    z-index: 99;
+    position: absolute;
+    right: -1px;
+    top: 146px;
+    -webkit-transition: opacity 500ms;
+    transition: opacity 500ms;
+}
+
+.wb_payDetail.show .bd{
+    padding-top: 12px;
+    padding-bottom: 2px;
+    border-bottom-width: 3px;
+}
+.wb_payDetail.show dl{
+    display: block;
+}
+
+.wb_fun {
+    line-height: 60px;
+    height: 60px;
+    padding: 25px;
+}
+
+.wb_fun .btnPrev {
+    background: url("../images/sg_user_arrow_l3.png") no-repeat 0 50%;
+    padding-left: 25px;
+    display: inline-block;
+}
+
+.wb_fun .btnSub {
+    background-color: #FDD000;
+    text-align: center;
+    font-size: 28px;
+    color: #380C6D;
+    width: 300px;
+    height: 60px;
+    border: none;
+}
+
+.wb_tag {
+    background: #F6F4FB url("../images/order_tag.png") no-repeat 38px 10px;
+    line-height: 26px;
+    padding: 8px 0;
+    padding-left: 78px;
+}
+
+.wb_tag,
+.wb_win {
+    margin-top: 20px;
+}
+
+.wb_win {
+    background-color: #fff;
+    border: solid #DDD 1px;
+}
+
+.wb_win_hd {
+    background-color: #F6F4FB;
+    line-height: 43px;
+    font-size: 22px;
+    text-indent: 28px;
+}
+
+.wb_win_hd span {
+    font-size: 14px;
+    color: #666;
+    padding-left: 18px;
+}
+
+.wb_win_bd {
+}
+
+.wb_contact table {
+    width: 100%;
+}
+
+.wb_contact td {
+    line-height: 35px;
+    padding: 20px 0;
+    padding-left: 5px;
+}
+
+.wb_contact td b {
+    color: #c60081;
+}
+
+.wb_contact td.tit {
+    padding-left: 30px;
+}
+
+.wb_user {
+    line-height: 26px;
+    padding: 28px 0;
+    border-bottom: solid #E2E2E2 1px;
+}
+
+.wb_user label {
+    padding: 0 32px;
+}
+
+.wb_user label input {
+    vertical-align: -5px;
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+.wb_uInt {
+    width: 1080px;
+    margin: 0 62px;
+    border-bottom: dashed #E2E2E2 1px;
+    position: relative;
+}
+.wb_win_bd .wb_uInt:last-child {
+    border-bottom-width: 0;
+}
+
+.wb_uInt dt {
+    font-size: 16px;
+    text-align: center;
+    width: 100px;
+    padding: 30px 0;
+}
+
+.wb_uInt dt span {
+    display: block;
+}
+
+.wb_uInt dt b {
+    background-color: #C60081;
+    font-weight: 400;
+    text-align: center;
+    line-height: 19px;
+    font-size: 12px;
+    color: #fff;
+    width: 30px;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+.wb_uInt dt b.sg_baby {
+    background-color: #FDD000;
+}
+
+.wb_uInt dd {
+    width: 960px;
+    padding: 20px 0;
+}
+
+.wb_uInt table {
+    width: 100%;
+}
+
+.wb_uInt td {
+    line-height: 37px;
+    padding: 14px 0;
+    position: relative;
+}
+
+.wb_uInt td.tit {
+    text-align: right;
+    vertical-align: top;
+    width: 104px;
+    padding-right: 12px;
+}
+
+.wb_uInt td.tit b {
+    color: #c60081;
+    padding-left: 6px;
+}
+
+.wb_uInt td.tit span.CE {
+    vertical-align: -8px;
+    line-height: 16px;
+    display: inline-block;
+}
+
+.wb_uInt td.tit span.CE span {
+    font-size: 12px;
+    display: block;
+}
+
+.wb_uInt .ui_textInput2 {
+    margin-right: 12px;
+}
+
+.wb_uInt label {
+    margin-right: 8px;
+}
+
+.wb_uInt input[type="radio"] {
+    vertical-align: -1px;
+    margin-right: 6px;
+}
+
+.wb_uInt .w_fun {
+    position: absolute;
+    right: 98px;
+    top: 40px;
+}
+
+.wb_uInt .w_fun label {
+    padding-right: 44px;
+    display: none;
+}
+.wb_uInt .w_fun input {
+    width: 20px;
+    height: 20px;
+    vertical-align: -5px;
+    margin-right: 15px;
+}
+
+.wb_uInt .w_fun a {
+    color: #c60081;
+}
+
+.wb_uInt .agreement input{
+    margin-right: 6px;
+    vertical-align: -1px;
+}
+.wb_uInt .agreement a {
+    color: #c60081;
+}
+.wb_uInt .error{
+    color: #c60081;
+}
+
+.wb_agreement {
+    background-color: #fff;
+    width: 1090px;
+    padding: 15px 20px;
+    margin-left: -550px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border: solid #F2F2F2 15px;
+}
+
+.wb_agreement .btnClose {
+    background: url("../images/sg_close.png") no-repeat 50% 50%;
+    width: 50px;
+    height: 50px;
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.wb_agreement h3 {
+    font-size: 24px;
+    padding-bottom: 19px;
+}
+
+.wb_agreement .text {
+    background-color: #FFFFFF;
+    font-size: 18px;
+    line-height: 30px;
+    max-height: 570px;
+    padding: 16px 12px;
+    margin-bottom: 30px;
+    overflow: auto;
+    border: solid #F2F2F2 3px;
+}
+
+.wb_agreement .btnAgree {
+    background-color: #FDD000;
+    text-align: center;
+    font-size: 18px;
+    line-height: 45px;
+    color: #3e085c;
+    width: 420px;
+    height: 45px;
+    display: block;
+    overflow: hidden;
+}

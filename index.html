@@ -1,0 +1,225 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>首页</title>
+    <link rel="stylesheet" type="text/css" href="style/base.css" />
+    <link rel="stylesheet" type="text/css" href="style/jquery-ui.css" />
+    <link rel="stylesheet" type="text/css" href="style/ui.css" />
+    <link rel="stylesheet" type="text/css" href="style/global.css" />
+    <link href="style/idangerous.swiper.css" rel="stylesheet" type="text/css" />
+    <link href="style/index.css" rel="stylesheet" type="text/css" />
+    <script src="script/jquery.min.js"></script>
+    <script src="script/jquery-ui.js"></script>
+    <script src="script/idangerous.swiper.min.js"></script>
+    <script src="script/global.js"></script>
+    <script type="text/javascript">
+
+        $("#back-to-top").hide();
+        //当滚动条的位置处于距顶部100像素以下时，跳转链接出现，否则消失
+        $(function () {
+            $(window).scroll(function () {
+                if ($(window).scrollTop() > 100) {
+                    $("#back-to-top").fadeIn(500);
+                }
+                else {
+                    $("#back-to-top").fadeOut(500);
+                }
+            });
+            //当点击跳转链接后，回到页面顶部位置
+            $("#back-to-top").click(function () {
+                $('body,html').animate({ scrollTop: 0 }, 100);
+                return false;
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="header">
+        <div class="layout mc">
+            <div class="g_menu">
+                <label class="item fl">泰航风兰假期自由行预订平台</label>
+                <label class="item labSetOut fl">出发地:</label>
+                <a class="item setOut fl" href="javascript:;">上海</a>
+                <label class="item log_reg fr"><a href="">登录</a>/<a href="">注册</a></label>
+                <label class="item tel fr"><b>4008002595</b><b>021-61121777</b></label>
+            </div>
+            <!-- logo -->
+            <div class="logobar clearfix">
+                <a class="fl" href=""><img src="uploads/logo.png" width="236" height="70" alt="" /></a>
+                <b class="split fl"></b>
+                <a class="fl" href=""><img src="uploads/lgo_magical.png" width="125" height="70" alt="" /></a>
+                <a class="fr" href=""><img src="uploads/logo_horizontravel.png" width="176" height="70" alt="" /></a>
+            </div>
+        </div>
+    </div>
+    <div class="wrap">
+        <!-- 导航条 -->
+        <div class="g_navigation">
+            <ul class="clearfix">
+                <li class="on"><a href="">首页</a></li>
+                <li><a href="">目的地</a></li>
+                <li><a href="">泰航-风兰假期</a></li>
+                <li><a href="">认识泰国</a></li>
+            </ul>
+        </div>
+        <!-- setOut -->
+        <div class="layout wb_setOut fl clearfix">
+            <div class="w_tag fl">
+                <p>即刻开始</p>
+                <p><b>你的泰国假期</b></p>
+            </div>
+            <dl class="w_setOut fl clearfix">
+                <dt>目的地</dt>
+                <dd>
+                    <div class="ui_textInput_earth">
+                        <input type="text" value="选择目的地" />
+                        <a href="javascript:;"></a>
+                    </div>
+                    <ul class="ui_dropList mphand">
+                        <li>曼谷+吉普岛</li>
+                        <li>曼谷+清迈</li>
+                        <li>曼谷+芭提雅</li>
+                        <li>曼谷+沽岛</li>
+                        <li>曼谷</li>
+                    </ul>
+                </dd>
+            </dl>
+            <dl class="w_date fl clearfix">
+                <dt>出发日期</dt>
+                <dd>
+                    <div class="ui_textInput_date">
+                        <input type="text" value="选择日期" />
+                        <a href="javascript:;"></a>
+                    </div>
+                </dd>
+            </dl>
+            <input class="w_btnOrder mphand" type="button" value="查&nbsp;看" />
+        </div>
+        <!-- banner -->
+        <div class="swiper-container g_slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" style="background-image:url('uploads/banner1_1.png');"></div>
+                <div class="swiper-slide" style="background-image:url('uploads/banner1_1.png');"></div>
+                <div class="swiper-slide" style="background-image:url('uploads/banner1_1.png');"></div>
+                <div class="swiper-slide" style="background-image:url('uploads/banner1_1.png');"></div>
+                <div class="swiper-slide" style="background-image:url('uploads/banner1_1.png');"></div>
+            </div>
+            <div class="pagination"></div>
+            <a class="prev" href="javascript:;"></a>
+            <a class="next" href="javascript:;"></a>
+        </div>
+        <!-- 目的地 -->
+        <div class="wb_destination">
+            <div class="layout mc">
+                <div class="ui_title1"><span class="line"></span><h3>目的地</h3></div>
+                <div class="w_list">
+                    <ul class="clearfix">
+                        <li>
+                            <div class="ui_goods item2">
+                                <a class="ui_ptobox" href=""><img width="792" height="370" src="uploads/goods1.png" style="margin-left: -396px;margin-top: -185px;" /></a>
+                                <div class="w_tit clearfix">
+                                    <h4 class="fl">曼谷+普吉岛</h4>
+                                    <span class="fr">￥<b>1800</b>起</span>
+                                </div>
+                                <a class="btnOrder" href="">开始预订</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="ui_goods item">
+                                <a class="ui_ptobox" href=""><img width="380" height="330" src="uploads/goods2.png" style="margin-left: -190px;margin-top: -165px;" /></a>
+                                <div class="w_tit clearfix">
+                                    <h4 class="fl">曼谷+普吉岛</h4>
+                                    <span class="fr">￥<b>1800</b>起</span>
+                                </div>
+                                <a class="btnOrder" href="">开始预订</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="ui_goods item">
+                                <a class="ui_ptobox" href=""><img width="380" height="330" src="uploads/goods3.png" style="margin-left: -190px;margin-top: -165px;" /></a>
+                                <div class="w_tit clearfix">
+                                    <h4 class="fl">曼谷+普吉岛</h4>
+                                    <span class="fr">￥<b>1800</b>起</span>
+                                </div>
+                                <a class="btnOrder" href="">开始预订</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="ui_goods item">
+                                <a class="ui_ptobox" href=""><img width="380" height="330" src="uploads/goods4.png" style="margin-left: -190px;margin-top: -165px;" /></a>
+                                <div class="w_tit clearfix">
+                                    <h4 class="fl">曼谷+普吉岛</h4>
+                                    <span class="fr">￥<b>1800</b>起</span>
+                                </div>
+                                <a class="btnOrder" href="">开始预订</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="ui_goods item">
+                                <a class="ui_ptobox" href=""><img width="380" height="330" src="uploads/goods5.png" style="margin-left: -190px;margin-top: -165px;" /></a>
+                                <div class="w_tit clearfix">
+                                    <h4 class="fl">曼谷+普吉岛</h4>
+                                    <span class="fr">￥<b>1800</b>起</span>
+                                </div>
+                                <a class="btnOrder" href="">开始预订</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <a class="btnReadMove mc" href="">查看更多</a>
+        </div>
+        <!-- 合作伙伴 -->
+        <div class="layout mc clearfix wb_friend">
+            <div class="ui_title1"><span class="line"></span><h3>合作伙伴</h3></div>
+            <div class="swiper-container g_carousel">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><a href=""><img width="200" height="90" src="uploads/logo_f_1.png" alt="" /></a></div>
+                    <div class="swiper-slide"><a href=""><img width="200" height="90" src="uploads/logo_f_2.png" alt="" /></a></div>
+                    <div class="swiper-slide"><a href=""><img width="200" height="90" src="uploads/logo_f_3.png" alt="" /></a></div>
+                    <div class="swiper-slide"><a href=""><img width="200" height="90" src="uploads/logo_f_4.png" alt="" /></a></div>
+                    <div class="swiper-slide"><a href=""><img width="200" height="90" src="uploads/logo_f_1.png" alt="" /></a></div>
+                    <div class="swiper-slide"><a href=""><img width="200" height="90" src="uploads/logo_f_2.png" alt="" /></a></div>
+                </div>
+            </div>
+            <a class="prev" href="javascript:;"></a>
+            <a class="next" href="javascript:;"></a>
+        </div>
+    </div>
+    <div class="g_about">
+        <div class="layout mc clearfix">
+            <div class="qrCode fl">
+                <img width="114" height="114" src="uploads/qrCode_thai.png" alt="泰国国际航空微信" />
+                <p>泰国国际航空微信</p>
+            </div>
+            <div class="qrCode fl">
+                <img width="114" height="114" src="uploads/qrCode_thai.png" alt="泰国旅游局上海办事处微信" />
+                <p>泰国旅游局上海办事处微信</p>
+            </div>
+            <div class="qrCode fl">
+                <img width="114" height="114" src="uploads/qrCode_thai.png" alt="御游网微信" />
+                <p>御游网微信</p>
+            </div>
+            <dl class="item fr">
+                <dt>支持的信用卡类型</dt>
+                <dd><img src="uploads/payOrganization.png" width="440" height="50" alt="" /></dd>
+            </dl>
+            <p class="cb nav"><span><a href="">关于我们</a></span><span><a href="">预订须知</a></span><span><a href="">预订流程</a></span><span><a href="">常见问题</a></span></p>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Copyright&nbsp;&copy;2015&nbsp;HorizonTravel.com.cn&nbsp;网站备案/许可证编号:&nbsp;沪ICP备09033352号-3</p>
+    </div>
+    <ul class="g_tool">
+        <li class="wechat"><a href=""></a></li>
+        <li class="qq"><a href=""></a></li>
+        <li class="chat"><a href=""></a></li>
+        <li class="up" id="back-to-top" style="display:none;"><a href="javascript:;"></a></li>
+    </ul>
+    <script>
+        mCtrl.initPage("index");
+    </script>
+</body>
+</html>

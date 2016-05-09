@@ -1,0 +1,37 @@
+/*重置元素*/
+* { padding: 0; margin: 0; }
+body, input { font-size: 14px; font-family: "Arial","Microsoft Yahei","微软雅黑","宋体"; line-height: 1.3125; color: #101010; }
+table { border-collapse: collapse; border: none; }
+ul { list-style-type: none; }
+img { border: none; }
+h1, h2, h3, h4, h5, h6 { font-weight: 400; }
+a { text-decoration: none; color: #3e085c; }
+input[type="submit"],button{ cursor: pointer; cursor: hand\9; }
+/*通用*/
+.ffArial { font-family: "Arial"; }
+.ffBlack { font-family: "黑体"; }
+.b { font-weight: 700; }
+.n { font-weight: 400; }
+.small { font-size: small; }
+.tac { text-align: center; }
+.tal { text-align: left; }
+.tar { text-align: right; }
+.tdl { text-decoration: underline; }
+.tdn { text-decoration: none; }
+.mc { margin-left: auto; margin-right: auto; }
+.fl { float: left; }
+.fr { float: right; }
+.cb { clear: both; }
+.db { display: block; }
+.di { display: inline; }
+.rt{position: relative;}
+.ns{-webkit-user-select: none; user-select: none;}
+.mphand { cursor: pointer; cursor: hand\9; }
+.clearfix:after { font-size: 0; content: " "; height: 0; clear: both; display: block; visibility: hidden; *zoom: 1; }
+.cimg{background-repeat: no-repeat;background-position: 50% 50%;display: inline-block;overflow: hidden;}
+.clr {text-align: justify;text-align-last: justify;}
+a:visited { color: #3e085c; }
+a:active { color: #3e085c; }
+a:hover{color:#380c6d;}
+
+img{vertical-align: middle;}
